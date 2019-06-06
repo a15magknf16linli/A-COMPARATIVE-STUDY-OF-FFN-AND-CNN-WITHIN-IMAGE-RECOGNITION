@@ -31,7 +31,7 @@ seed = 123
 #######################################
 # Statistics Two tailed paired t test #
 #######################################
-# significance level 0.05 / 132 = 0.0000378 value (column 0.001 degree of freedome 9 used)
+# significance level 0.05 / 132 = 0.0000378 value (column 0.001 degree of freedom 9 used)
 tKFold = 4.781
 
 #support libraries
@@ -64,10 +64,10 @@ def getConfusionMatrix(histories):
             table[row][column] = round(table[row][column], 2)
             
     #Predicted categories (Cifar10 categories) + the total amount of images of each category
-    columns = 'P.Airplane,P.Automobile,P.Bid,P.Cat,P.Deer,P.Dog,P.Frog,P.Horse,P.Ship,P.Truck,Total'
+    columns = 'P Airplane,P Automobile,P Bird,P Cat,P Deer,P Dog,P Frog,P Horse,P Ship,P Truck,Total'
     
     #Actual categories (Cifar10 categories)
-    rows =    ['Airplane', 'Automobile', 'Bid', 'Cat', 'Deer', 'Dog', 'Frog', 'Horse', 'Ship', 'Truck']
+    rows =    ['Airplane', 'Automobile', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', 'Horse', 'Ship', 'Truck']
     
     #build the table with comma separation
     results = ',' + columns + '\n'
