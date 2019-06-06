@@ -3,6 +3,8 @@ A Thesis project conducted by Linus Lindahl and Magnus Knutsson at University of
 
 This repository is the source code used in this thesis project
 The folder SourceFiles contains **Training.py** and **results.py** the folder ModelTemplates contains the sourcefiles that creates each individual model. The folder ModelOutputs contains the model performance during training of the models for instance *CNN_Leaky_ReLU_epoch(100)k(10)seed(123).pkl* shows the contains the CNN Leaky ReLU training and the results for each model is presentend in the \<model\>(statistics).txt files for each model, and these are further used by Statistics.xlsx. The report for the thesis project is also presented in the repository.
+**The actual models used was to large to store in a Github repository (approximately 5Gb) so they can be found on**:
+https://drive.google.com/drive/folders/1nlzaW7kCEkgTnWjSFBDsIzCK4GcylPON
 
 ## /SourceFiles/Training.py
 This file trains one model at a time, the configuration options is listed below:
